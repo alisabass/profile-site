@@ -1,0 +1,68 @@
+#title-color {
+  border-color: blue;
+  color: red;
+  text-align: center;
+  border: solid 10px;
+}
+.home-button {
+  margin-left: -20%;
+  background: lightseagreen;
+  border: 0px;
+  color: #fff;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition-duration: 0.5s;
+  -webkit-box-shadow: 0px 0px 0 0 #31708f inset , 0px 0px 0 0 #31708f inset;
+}
+.home-button:hover{
+  -webkit-box-shadow: 50px 0px 0 0 #31708f inset , -50px 0px 0 0 #31708f inset;
+}
+h1 {
+  text-align: center;
+  color: dark-blue;
+}
+.profile-card {
+  border: 20px;
+  color: black;
+  margin-top: 100px;
+  margin-left: 15px;
+  background-color: red;
+  border-color: yellow;
+  width: 45%;
+  float: left;
+}
+
+.experience {
+  text-align:justify;
+  column-width: 600px;
+  margin: 8% 5% 0 30%;
+
+}
+h2, h4 {
+  text-align: center;
+}
+
+.p {
+  font-family: sans-serif, fantasy;
+  font-size: 15px;
+  font-weight: normal;
+  font-style:normal;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  body {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+  }
+}
+p {
+  font-weight: normal;
+  font-family: sans-serif serif;
+}
+. {
+
+
+}

@@ -1,0 +1,93 @@
+h1 {
+  width: 400px;
+  height: 100px;
+  color: gainsboro;
+  border: solid forestgreen;
+  border-width: medium;
+  text-align: center;
+  margin: auto;
+}
+.homebutton{
+  height: 50px;
+  width: 200px;
+  background: lightseagreen;
+  margin: 20px;
+  float: left;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition: all 0.5s ease-in-out;
+  border: 0px;
+  color: #fff;
+}
+.homebutton:hover{
+    -webkit-transform: scale(1.1);
+    background: #31708f;
+}
+
+#project{
+  margin:100px 20px 0 28%;
+  float: center;
+  text-align: justify;
+  font-size: 18px;
+  font-family: sans-serif, monospace,fantasy, serif;
+  text-align: justify;
+}
+.projectpage {
+  width: 100px;
+  height: 100px;
+  background-color: foresgreen;
+  position: relative;
+  animation-name: movement;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation: grow 3s infinite;
+}
+#card {
+  margin-left: 20px;
+  margin-top: -25%;
+  border: solid greyboro;
+  margin-top: 100px;
+}
+#card-deck {
+  margin-left: 15px;
+  text-align: justify;
+  text-decoration: inherit;
+  margin-top: auto;
+}
+.card-text {
+  margin-left: 2px;
+}
+.card-body {
+  margin-left: -5px;
+}
+@media (max-width: 1200px) {
+  .p1, .card-img-1, .card-img-2 .card-img-3, .card-title, .Discription, .card, .card-deck, .card-body{
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .p1, .card-img-1, .card-img-2, .card-img-3, .card-title .Discription, .card, .card-deck, .card-body {
+    width: 100%;
+  }
+}
+.card-img-top {
+  padding: 15px;
+  shape-outside: margin-box;
+  flex-flow: column;
+  float: top-left;
+
+}
+.p1 {
+  width: 700px;
+  float: right;
+  margin-left: 50px;
+  font-weight: normal;
+  font-family: sans-serif serif;
+  justify-content: space-around;
+  margin-bottom: auto;
+  margin-top: auto;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}

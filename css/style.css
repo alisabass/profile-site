@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+}
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+.profile-column {
+  width: 1390px;
+  margin-left: 20px;
+}
+a:visited {
+  color: orange;
+}
+a:active {
+  color: blue;
+}
+.flex-container {
+  flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+  .profile-column{
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  .profile-column {
+    width: 100%;
+  }
+}

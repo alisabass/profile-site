@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+
+}
+.homebutton{
+  height: 50px;
+  width: 100px;
+  background: #31708f ;
+  border:0px;
+  color: #fff;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transform-origin: 0 0;
+  box-shadow:0px 0px 0 100px lightseagreen inset;
+}
+.homebutton:hover{
+  -webkit-box-shadow:0px 0px 0 0px lightseagreen inset;
+  -webkit-transform: scale(1);
+}
+#card-deck {
+  margin-left: 10px;
+  width: 1400px;
+}
+@media (max-width: 1200px) {
+  body, .jumbotron, .card, #card-deck{
+    width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  body, .jumbotron, .card, #card-deck{
+    width: 100%;
+  }
